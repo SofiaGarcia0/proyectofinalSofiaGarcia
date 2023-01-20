@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nombre": "Préstamo Verano 2022-2023",
+        "monto": 100.000,
+        "cuotas": 10
+    },
+
+    {
+        "id": 2,
+        "nombre": "Préstamo compra tu auto",
+        "monto": 800.000,
+        "cuotas": 12
+    },
+
+    {
+        "id": 3,
+        "nombre": "Préstamo financia tus estudios",
+        "monto": 100.000,
+        "cuotas": 10
+    }
+]

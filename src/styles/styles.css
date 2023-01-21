@@ -1,5 +1,11 @@
 .container {
   max-width: 960px;
+  max-width: 960px;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+   color: #301E67;
+   background-color: #cbdff0;
+
 }
 
 .bd-placeholder-img {
@@ -52,3 +58,23 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
+.tarjeta {
+  margin:10px;
+  padding: 5px;
+  align-items:center;
+  text-align: center;
+  font-family:  'Grandstander';
+  margin-bottom: 10vh;
+  border-color:rgb(179, 208, 233);
+  box-shadow: 0px 4px 4px rgba(159, 159, 159, 0.379);
+}
+
+#prestamosContenedor {
+  margin: auto;
+  display: flex;
+
+  padding: 50px;
+  
+}
+

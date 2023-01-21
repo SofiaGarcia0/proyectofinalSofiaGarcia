@@ -31,7 +31,14 @@ formulario.addEventListener("submit", (e) => {
       title: 'Error',
       text: 'el monto no debe ser menor de 5000 o mayor a 1000000',
     });
+  } else {
+    Swal.fire({
+      icon: 'success',
+      title: 'Excelente ',
+      text: `Muchas gracias ${nombre.value}. En breve recibira más información a ${email.value}`,
+    });
   }
+
   obtenerCuotaPrestamo();
 
 });
@@ -39,11 +46,6 @@ formulario.addEventListener("submit", (e) => {
 const obtenerCuotaPrestamo = () => {
   const cuotaPrestamo = tasa * monto.value / (1 - (1 + tasa) ** - cuotas.value);
   obtenerTotal(cuotaPrestamo);
-  Swal.fire({
-    icon: 'success',
-    title: 'Excelente ',
-    text: `Muchas gracias ${nombre.value}. En breve recibira más información a ${email.value}`,
-  });
 };
 
 const obtenerTotal = (cuotaPrestamo) => {
